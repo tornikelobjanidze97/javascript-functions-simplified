@@ -1,1 +1,1 @@
-var arr2 = arr1.reverse();
+const randomBoolean = () => Math.random() >= 0.5;
