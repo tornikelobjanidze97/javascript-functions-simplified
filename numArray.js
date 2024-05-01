@@ -1,2 +1,3 @@
-console.log(false == '0');
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
