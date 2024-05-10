@@ -1,3 +1,2 @@
-const executableName = getExecutableName(channel, appName);
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-const fullName = name || 'buddy';
+const channelName = getChannelName(channel);
+const randomString = () => Math.random().toString(36).slice(2);
