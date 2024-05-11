@@ -1,3 +1,2 @@
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-const result = await makeHttpRequest(url);
+const repositoryRootPath = path.resolve(__dirname, '..');
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
