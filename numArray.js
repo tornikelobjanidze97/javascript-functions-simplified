@@ -1,2 +1,1 @@
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const buildOutputPath = path.join(repositoryRootPath, 'out');
+const randomBoolean = () => Math.random() >= 0.5;
