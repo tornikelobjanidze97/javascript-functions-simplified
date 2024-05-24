@@ -1,2 +1,2 @@
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
-const arrayContains = (arr, element) => arr.includes(element);
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+console.log(1 +  +"2" + "2");
