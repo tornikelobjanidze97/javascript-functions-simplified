@@ -1,3 +1,2 @@
-const allResults = await Promise.all(items.map(async (item) => {}));
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+console.log("0 && 1 = "+(0 && 1));
+const arrayContains = (arr, element) => arr.includes(element);
