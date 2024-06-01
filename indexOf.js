@@ -1,2 +1,1 @@
-console.log( "A" - "B" + "2");
-const isEven = (num) => num % 2 === 0;
+const merge = Object.assign({}, obj1, obj2);
