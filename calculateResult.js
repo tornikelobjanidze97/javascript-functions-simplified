@@ -1,1 +1,2 @@
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const isWeekday = (date) => date.getDay() % 6 !== 0;
