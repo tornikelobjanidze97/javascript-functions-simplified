@@ -1,1 +1,1 @@
-const merge = Object.assign({}, obj1, obj2);
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
