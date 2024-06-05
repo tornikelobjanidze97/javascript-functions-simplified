@@ -1,2 +1,1 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-const isWeekday = (date) => date.getDay() % 6 !== 0;
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
