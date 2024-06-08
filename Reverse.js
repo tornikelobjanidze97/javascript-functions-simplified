@@ -1,2 +1,3 @@
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const fullName = name || 'buddy';
+console.log( "A" - "B" + 2);
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
