@@ -1,1 +1,3 @@
-const randomBoolean = () => Math.random() >= 0.5;
+const isTabInView = () => !document.hidden;
+const merge = (a, b) => [...a, ...b];
+const repositoryRootPath = path.resolve(__dirname, '..');
