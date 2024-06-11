@@ -1,1 +1,1 @@
-const isEmptyArray = arr => !arr.length;
+const scriptRootPath = path.join(repositoryRootPath, 'script');
