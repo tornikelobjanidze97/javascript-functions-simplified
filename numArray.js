@@ -1,2 +1,2 @@
-const repositoryRootPath = path.resolve(__dirname, '..');
-const symbolsPath = path.join(buildOutputPath, 'symbols');
+console.log(+"1" +  "1" + "2");
+[foo, bar] = [bar, foo];
