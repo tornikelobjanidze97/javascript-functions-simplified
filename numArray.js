@@ -1,2 +1,2 @@
-console.log(+"1" +  "1" + "2");
-[foo, bar] = [bar, foo];
+const isWeekday = (date) => date.getDay() % 6 !== 0;
+const minNumber = arr => Math.min(...arr);
