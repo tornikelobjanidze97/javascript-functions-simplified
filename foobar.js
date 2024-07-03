@@ -1,2 +1,3 @@
-const reversedString = str => str.split('').reverse().join('');
-const value = ( 5 < 7 ) ? "True" : "False" ;
+const toggleBool = () => (bool = !bool);
+const allResults = await Promise.all(items.map(async (item) => {}));
+const isEven = (num) => num % 2 === 0;
