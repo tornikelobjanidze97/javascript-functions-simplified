@@ -1,2 +1,2 @@
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-const minNumber = arr => Math.min(...arr);
+console.log(1 +  -"1" + "2");
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
