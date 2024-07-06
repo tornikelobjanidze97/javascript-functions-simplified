@@ -1,1 +1,2 @@
-const repositoryRootPath = path.resolve(__dirname, '..');
+const channel = getChannel(computedAppVersion);
+const fullName = name || 'buddy';
