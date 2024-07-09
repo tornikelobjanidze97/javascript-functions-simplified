@@ -1,3 +1,2 @@
-const reversedString = str => str.split('').reverse().join('');
-const merge = [...new Set(a.concat(b))];
-const apmRootPath = path.join(repositoryRootPath, 'apm');
+const merge = Object.assign({}, obj1, obj2);
+const getRandomBoolean = () => Math.random() >= 0.5;
