@@ -1,1 +1,2 @@
-console.log(1 +  -"1" + "2");
+const flattenedArray = arr => [].concat(...arr);
+const isWeekday = (date) => date.getDay() % 6 !== 0;
