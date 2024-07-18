@@ -1,2 +1,3 @@
-const merge = Object.assign({}, obj1, obj2);
-const getRandomBoolean = () => Math.random() >= 0.5;
+const timeFromDate = date => date.toTimeString().slice(0, 8);
+console.log(1 +  -"1" + "2");
+var pattern = {};
