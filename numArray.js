@@ -1,3 +1,3 @@
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
-const randomString = () => Math.random().toString(36).slice(2);
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+console.log("0 || 1 = "+(0 || 1));
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const reversedString = str => str.split('').reverse().join('');
