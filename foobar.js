@@ -1,3 +1,3 @@
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-const isEmptyObject = obj => Object.keys(obj).length === 0;
+var arr3 = "jones".split('');
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
