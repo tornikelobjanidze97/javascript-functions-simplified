@@ -1,2 +1,3 @@
-var c = new Counter(); c.add(); c.add(); c.add();
-const merge = [...new Set([...a, ...b])];
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const uniqueArr = (arr) => [...new Set(arr)];
+const intermediateAppPath = path.join(buildOutputPath, 'app');
