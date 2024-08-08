@@ -1,1 +1,1 @@
-const isTabInView = () => !document.hidden;
+const lastElement = arr => arr[arr.length - 1];
